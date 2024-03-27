@@ -1,0 +1,182 @@
+
+
+nav{
+    
+    color: aliceblue;
+    background-color: rgb(65, 64, 64);
+    position: fixed;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+nav ul li{
+    padding-left: 100px;
+
+}
+.container {
+position: relative;
+text-align: center;
+color: white;
+}
+
+header {
+   background-image: url('music.jpg');
+    color: antiquewhite;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-text {
+    text-align: center;
+}
+
+
+.btn {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 18px 48px 16px;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.button-free {
+    background-color: rgb(29, 185, 84);
+    margin-right: 8px;
+    width: 250px;
+}
+
+.button-premium {
+    box-shadow: 0 0 0 2px #fff inset;
+    background-color: transparent;
+    width: 250px;
+}
+
+.section-features {
+    background-color: gray;
+    height: 600px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.features-description {
+    margin-top: 50px;
+}
+
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 24px 12px 0px 0px;
+}
+
+p {
+    font-size: 18px;
+}
+.album-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    transition: transform 450ms;
+}
+.album-showcase:hover{ 
+    transform: scale(1.08);
+}
+
+.album-showcase img {
+    width: 285px;
+    height: 285px;
+}
+.hero-easy {
+    height: 600px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+}
+
+.easy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone {
+    margin: 40px;
+    width: 400px;
+    height: 500px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    height: 400px;
+}
+
+.logo-bottom {
+    width: 132px;
+    height: 40px;
+}
+
+.footer-links {
+    top: 0;
+    left: 20%;
+    display: flex;
+}
+
+.footer-links li {
+    margin: 20px 0px;
+    width: 165px;
+    list-style: none;
+    cursor: pointer;
+    color:rgb(255, 255, 255) ;
+}
+.social-media {
+   display: inline-flex;
+    padding: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.social-media img {
+    height: 45px;
+    width: 45px;
+}
+.social {
+    padding-right: 10px;
+}
